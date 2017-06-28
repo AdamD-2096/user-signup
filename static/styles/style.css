@@ -1,0 +1,12 @@
+.text {
+    text-align: center;
+    color: #404;
+}
+form {
+    background-color: #eef;
+    padding: 4em;
+    margin: 0 auto;
+    width: 12em;
+    font: 16px serif;
+    border-radius: 24em;
+}

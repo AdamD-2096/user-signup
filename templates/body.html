@@ -1,0 +1,35 @@
+{% extends "index.html" %}
+
+{% block content %}
+        <h1 class="text">SIGN UP:</h1>
+        <form method="post">
+            <label>
+                User Name:
+                <input type ="text" name="user"/>
+            </label>
+            <label>
+                Password:
+                <input type ="password" name="pass"/>
+            </label>
+            <label>
+                Re-Type Password:
+                <input type ="password" name="pass2"/>
+            </label>
+            <label>
+                E-Mail:
+                <input type ="text" name="mail"/>
+            </label>
+            <input type="submit" value="Create Account"/>
+        </form>
+
+        <!--{% if tasks|length == 0 %}
+            <p>No tasks yet</p>
+        {% else %}
+            <ul>
+                {% for task in tasks %}
+                <li>{{task}}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}-->
+
+{% endblock %}
