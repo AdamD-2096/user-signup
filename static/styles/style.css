@@ -1,12 +1,22 @@
 .text {
     text-align: center;
-    color: #404;
+    color: #40e;
+}
+.error{
+    color: #b11;
+    text-shadow: 0.05em 0.05em #009;
+}
+#big{
+    font-size: 10em;
 }
 form {
-    background-color: #eef;
-    padding: 4em;
+    background-color: #77d;
+    padding: 8em;
     margin: 0 auto;
     width: 12em;
     font: 16px serif;
-    border-radius: 24em;
+    border-radius: 25%;
+}
+body{
+    background-color: #250015
 }

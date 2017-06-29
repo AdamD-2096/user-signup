@@ -1,28 +1,29 @@
 {% extends "index.html" %}
 
 {% block content %}
-        <h1 class="text">SIGN UP:</h1>
+        <h1 class="text">Sign UP!!</h1>
         <form method="post">
             <label>
-                User Name:
-                <input type ="text" name="user"/>
-                <p class="error">{0}<>
+                *User Name:
+                <input type ="text" name="user" value="{{four}}"/>
+                <p class="error">{{zero}}<p>
             </label>
             <label>
-                Password:
+                *Password:
                 <input type ="password" name="pass"/>
-                <p class="error">{1}<>
+                <p class="error">{{one}}<p>
             </label>
             <label>
-                Re-Type Password:
+                *Re-Type Password:
                 <input type ="password" name="pass2"/>
-                <p class="error">{2}<>
+                <p class="error">{{two}}<p>
             </label>
             <label>
                 E-Mail:
-                <input type ="text" name="mail"/>
-                <p class="error">{3}<>
+                <input type ="text" name="mail" value="{{five}}"/>
+                <p class="error">{{three}}<p>
             </label>
+            <p class="error">* required field</p>
             <input type="submit" value="Create Account"/>
         </form>
 
